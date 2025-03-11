@@ -1,5 +1,5 @@
 title = "BB Recettes"
-baseURL = 'https://example.org'
+baseURL = 'https://fuyarde.github.io/bbrecettes'
 languageCode = 'fr-FR'
 
 [params]
