@@ -1,239 +1,231 @@
 body {
-	background: #151515 ;
-	color: navajowhite ;
-	max-width: 850px ;
-	margin: auto ;
-	padding: 0 16px ;
-	margin-bottom: 500px ;
-	scrollbar-color: gray #151515;
-	font-family: sans-serif ;
+	background: #f0f0f0;
+	color: #333;
+	max-width: 850px;
+	margin: auto;
+	padding: 0 16px;
+	margin-bottom: 500px;
+	scrollbar-color: #ccc #f0f0f0;
+	font-family: sans-serif;
 }
 
 ::-webkit-scrollbar {
 	width: .66vw;
-	background-color: #151515;
+	background-color: #f0f0f0;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: gray;
+	background-color: #ccc;
 	border-radius: 5px;
 }
 
 a {
-	color: gold ;
-	text-decoration: none ;
+	color: #007acc;
+	text-decoration: none;
 }
 
 #tagcloud {
-	list-style: none ;
-	text-align: center ;
-	padding: 0 ;
+	list-style: none;
+	text-align: center;
+	padding: 0;
 }
 
 #tagcloud li {
-	display: inline-block ;
+	display: inline-block;
 }
 
 #tagcloud a {
-	margin: .1em .25em ;
+	margin: .1em .25em;
 }
 
 a:visited {
-	color: darkgoldenrod ;
+	color: #005f99;
 }
 
 a:hover {
-	color: beige ;
+	color: #005f99;
 	text-decoration: underline;
 }
 
 h1 {
-	border-style: solid ;
-	border-width: 0px 0px 2px 0px ;
-	text-align: center ;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	text-align: center;
 }
 
 h2 {
-	color: tomato ;
-	text-align: center ;
+	color: #e57373;
+	text-align: center;
 }
 
 footer {
-	text-align: center ;
-	border-style: solid ;
-	border-width: 2px 0px 0px 0px ;
-	padding: 1em ;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	padding: 1em;
 }
 
 img {
-	max-width: 90% ;
-	max-height: 400px ;
-	margin: auto ;
-	display: block ;
+	max-width: 90%;
+	max-height: 400px;
+	margin: auto;
+	display: block;
 }
 
 code {
-	overflow-wrap: break-word ;
-	color: lime ;
+	overflow-wrap: break-word;
+	color: #2e7d32;
 }
 
 .taglist {
-	text-align: center ;
-	margin-bottom: 2em ;
-	margin-top: 2em ;
+	text-align: center;
+	margin-bottom: 2em;
+	margin-top: 2em;
 }
 
 @media (pointer: coarse) {
 	li > a {
-	    display: inline-block;
+		display: inline-block;
 		padding: 0.2em 0;
 	}
 }
 
 @media print {
 	a[href] {
-		text-decoration: none ;
-		color: black ;
+		text-decoration: none;
+		color: black;
 	}
 
-	footer,.taglist { display: none ; }
+	footer,.taglist { display: none; }
 
 	body {
 		margin: 0;
 	}
-
-
 }
 
-/* .older-article {
-	display: none ;
-} */
-
 .hidden {
-	display: none !important ;
+	display: none !important;
 }
 
 #artlist {
-	font-size: large ;
+	font-size: large;
 }
 
 #artlist li {
-	padding: .25em ;
+	padding: .25em;
 }
 
 @media (min-width: 55em) {
-	#artlist { column-count: 2 ;}
+	#artlist { column-count: 2; }
 }
 
 @media (min-width: 100em) {
-	#artlist { column-count: 3 ;}
+	#artlist { column-count: 3; }
 }
 
-
 input#search {
-  all: unset;
-  background: #222;
-  color: #fff;
-  padding: 0.7rem 1rem;
-  border-radius: 5px;
-  width: 100%;
+	all: unset;
+	background: #fff;
+	color: #333;
+	padding: 0.7rem 1rem;
+	border-radius: 5px;
+	width: 100%;
 }
 
 .search {
-  width: 400px;
-  max-width: 85vw;
-  position: relative;
-  margin: 0.5rem auto 1.2rem;
-  display: flex;
+	width: 400px;
+	max-width: 85vw;
+	position: relative;
+	margin: 0.5rem auto 1.2rem;
+	display: flex;
 }
 
 button#clear-search {
-  all: unset;
-  position: absolute;
-  right: 4px;
-  top: 5px;
-  height: 30px;
-  width: 30px;
-  color: #888;
-  cursor: pointer;
-  transition: color 180ms ease-in-out;
+	all: unset;
+	position: absolute;
+	right: 4px;
+	top: 5px;
+	height: 30px;
+	width: 30px;
+	color: #888;
+	cursor: pointer;
+	transition: color 180ms ease-in-out;
 }
 button#clear-search:hover {
-  color: #eee;
+	color: #555;
 }
 
-
 .matched-recipe {
-	font-size: x-large ;
-	display: list-item !important ;
+	font-size: x-large;
+	display: list-item !important;
 }
 
 .list-searched {
-	column-count: 1 !important ;
-	list-style: decimal ;
-	max-width: 600px ;
-	margin: auto ;
+	column-count: 1 !important;
+	list-style: decimal;
+	max-width: 600px;
+	margin: auto;
 }
 
-#tag_alcool:before { content: "🍸" ;}
-#tag_pomme:before { content: "🍎" ; }
-#tag_asiat:before { content: "🥢" ; }
-#tag_boeuf:before { content: "🐄" ; }
-#tag_pain:before { content: "🍞" ;}
-#tag_breakfast:before { content: "🌅" ;}
-#tag_broccoli:before { content: "🥦" ;}
-#tag_gateau:before { content: "🍰" ; }
-#tag_fromage:before { content: "🧀" ; }
-#tag_poulet:before { content: "🐔" ;}
-#tag_chocolat:before { content: "🍫" ; }
-#tag_cookies:before { content: "🍪" ;}
-#tag_curry:before { content: "🍛" ; }
-#tag_dessert:before { content: "🍮" ; }
-#tag_drink:before { content: "🍹" ;}
-#tag_canard:before { content: "🦆" ; }
-#tag_oeuf:before { content: "🥚" ; }
-#tag_poisson:before { content: "🐟" ; }
-#tag_fruit:before { content: "🍇" ; }
-#tag_citron:before { content: "🍋" ;}
-#tag_lait:before { content: "🥛" ; }
-#tag_champignon:before { content: "🍄" ;}
-#tag_pancake:before { content: "🥞" ; }
-#tag_pâtes:before { content: "🍝" ;}
-#tag_tarte:before { content: "🥧" ;}
-#tag_pizza:before { content: "🍕" ; }
-#tag_porc:before { content: "🐖" ;}
-#tag_patate:before { content: "🥔" ; }
-#tag_rapide:before { content: "🏃" ; }
-#tag_riz:before { content: "🍚" ; }
-#tag_salade:before { content: "🥗" ;}
-#tag_sandwich:before { content: "🥪" ;}
-#tag_soupe:before { content: "🍜" ;}
-#tag_épicé:before { content: "🌶️" ; }
-#tag_steak:before { content: "🥩" ; }
-#tag_bouillon:before { content: "🍲" ; }
-#tag_tomate:before { content: "🍅" ;}
+#tag_alcool:before { content: "🍸"; }
+#tag_pomme:before { content: "🍎"; }
+#tag_asiat:before { content: "🥢"; }
+#tag_boeuf:before { content: "🐄"; }
+#tag_pain:before { content: "🍞"; }
+#tag_breakfast:before { content: "🌅"; }
+#tag_broccoli:before { content: "🥦"; }
+#tag_gateau:before { content: "🍰"; }
+#tag_fromage:before { content: "🧀"; }
+#tag_poulet:before { content: "🐔"; }
+#tag_chocolat:before { content: "🍫"; }
+#tag_cookies:before { content: "🍪"; }
+#tag_curry:before { content: "🍛"; }
+#tag_dessert:before { content: "🍮"; }
+#tag_drink:before { content: "🍹"; }
+#tag_canard:before { content: "🦆"; }
+#tag_oeuf:before { content: "🥚"; }
+#tag_poisson:before { content: "🐟"; }
+#tag_fruit:before { content: "🍇"; }
+#tag_citron:before { content: "🍋"; }
+#tag_lait:before { content: "🥛"; }
+#tag_champignon:before { content: "🍄"; }
+#tag_pancake:before { content: "🥞"; }
+#tag_pâtes:before { content: "🍝"; }
+#tag_tarte:before { content: "🥧"; }
+#tag_pizza:before { content: "🍕"; }
+#tag_porc:before { content: "🐖"; }
+#tag_patate:before { content: "🥔"; }
+#tag_rapide:before { content: "🏃"; }
+#tag_riz:before { content: "🍚"; }
+#tag_salade:before { content: "🥗"; }
+#tag_sandwich:before { content: "🥪"; }
+#tag_soupe:before { content: "🍜"; }
+#tag_épicé:before { content: "🌶️"; }
+#tag_steak:before { content: "🥩"; }
+#tag_bouillon:before { content: "🍲"; }
+#tag_tomate:before { content: "🍅"; }
 
 .cryptocontainer {
-    display: flex ;
-    flex-wrap: wrap ;
-    justify-content: center ;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .cryptoinfo {
-    max-width: 350px ;
-    text-align: center ;
-    padding-left: 10px ;
-    padding-right: 10px ;
+	max-width: 350px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 .cryptoinfo code {
-	font-size: small ;
-	overflow-wrap: break-word ;
+	font-size: small;
+	overflow-wrap: break-word;
 }
 .qr {
-    max-height: 150px; ;
+	max-height: 150px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.js-only { display: none ; }
+.js-only { display: none; }
