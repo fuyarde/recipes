@@ -1,6 +1,6 @@
 ---
 title: Grâtin de pâtes
-tags: ['pâtes', 'fromage']
+tags: ['pâtes', 'fromage', 'porc', 'champignon']
 date: 2025-03-11
 author: "Théo"
 ---
