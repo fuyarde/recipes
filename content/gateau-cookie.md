@@ -1,6 +1,6 @@
 ---
 title: Gâteau cookie
-tags: ['gâteau', 'cookies', "chocolat"]
+tags: ['gâteau', 'cookies', 'dessert', "chocolat"]
 date: 2025-03-11
 author: "Théo"
 ---
