@@ -1,13 +1,13 @@
 ---
-title: Dish Title
-tags: ['beef', 'soup', 'german']
-date: 2022-02-20
-author: "Your Name"
+title: Tarte aux pommes
+tags: ['dessert', 'pomme', 'tarte']
+date: 2025-03-11
+author: "Théo"
 ---
 
-- ⏲️ Prep time: 10 min
-- 🍳 Cook time: 30 min
-- 🍽️ Servings: 4
+- ⏲️ Préparations: 30 min
+- 🍳 Cuisson: 30 min
+- 🍽️ Part: 8
 
 ## Ingrédients
 - **1** pomme ;
