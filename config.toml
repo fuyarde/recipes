@@ -4,14 +4,14 @@ languageCode = 'fr-FR'
 
 [params]
   # "relatedtext" is the text that appears above the tag list at the bottom of pages.
-  relatedtext = "Related"
-  favicon = "/favicon.ico"
+  relatedtext = "Lié"
+  favicon = "/favicon.svg"
 
   #list items
-  datesinlist = true
-  authorsinlist = true
+  datesinlist = false
+  authorsinlist = false
 
   #footer items
-  nextprev = true
+  nextprev = false
   taglist = true
   showrss = false
