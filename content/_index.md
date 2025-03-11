@@ -58,10 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
 // @license-end
 </script>
 
-## Recettes récentes
+## Recettes
 
 {{< artlist >}}
 
-## Catégories...
+## Catégories
 
 {{< tagcloud >}}
