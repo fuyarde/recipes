@@ -7,7 +7,6 @@
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 	<link rel='stylesheet' type='text/css' href='/bbrecettes/style.css'>
 	{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
-	{{ with .Site.Params.ghfavicon }}<link rel="icon" href="{{ . }}">
 	{{ end -}}
 	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
 	{{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
