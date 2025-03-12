@@ -36,4 +36,5 @@ author: "Théo"
 9. Déposer le poulet sur les différentes parts de pâtes ;
 10. Mettre en boule ;
 11. Enfourner 15/20 minutes au four.
-12. Miam :-P
+12. Retourner à 5 minutes de la fin en mode grill. 
+13. Miam :-P
