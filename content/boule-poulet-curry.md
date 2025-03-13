@@ -5,11 +5,16 @@ date: 2025-03-11
 author: "Théo"
 ---
 
-- ⏲️ Préparations: 20 min
-- 🍳 Cuisson: 15/20 min
-- 🍽️ Part: 4
+![boule poulet curry](/pix/boule-poulet-curry.JPEG)
+
+## Infos
+
+- ⏲️ **Préparation**: 20 min
+- 🍳 **Cuisson**: 15/20 min
+- 🍽️ **Part**: 4
 
 ## Ingrédients
+
 - **2** escalopes de poulet (~ 250g)
 - **1** pâte à pizza rectangle ;
 - **20cl** de crème fraiche ;
@@ -20,6 +25,7 @@ author: "Théo"
 - Poivre.
 
 ## Préparation
+
 1. Préchauffer le four à 180°C ;
 2. Couper et faire revenir les oignons, mettre de côté une fois prêt ;
 3. **Petit tips :** Ne pas hésiter à étager les saveurs, par exemple :
