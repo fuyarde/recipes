@@ -1,5 +1,5 @@
 ---
-title: "🍲 BB Recettes 🍳"
+title: "🍲 BB Recettes"
 description: ''
 layout: single
 ---
