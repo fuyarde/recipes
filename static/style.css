@@ -80,6 +80,7 @@ footer p {
 }
 
 img {
+	border-radius: 2%;
 	max-width: 90%;
 	max-height: 400px;
 	margin: auto;
