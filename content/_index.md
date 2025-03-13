@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // @license-end
 </script>
 
-## Recettes
+## Les 9 dernières recettes
 
 {{< artlist >}}
 
