@@ -15,3 +15,6 @@ languageCode = 'fr-FR'
   nextprev = false
   taglist = true
   showrss = false
+
+[markup.goldmark.renderer]
+  unsafe = true

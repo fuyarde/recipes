@@ -27,6 +27,7 @@ a {
 	list-style: none;
 	text-align: center;
 	padding: 0;
+	margin-bottom: 1.25em;
 }
 
 #tagcloud li {
@@ -138,8 +139,9 @@ code {
 
 input#search {
 	all: unset;
-	background: #fff;
-	color: #333;
+	background: #f5f5dc;
+	border: 1px solid #8b4513;
+	color: #a0512dd5;
 	padding: 0.7rem 1rem;
 	border-radius: 5px;
 	width: 100%;
@@ -160,7 +162,7 @@ button#clear-search {
 	top: 5px;
 	height: 30px;
 	width: 30px;
-	color: #888;
+	color: #a0512dd5;
 	cursor: pointer;
 	transition: color 180ms ease-in-out;
 }
@@ -169,7 +171,6 @@ button#clear-search:hover {
 }
 
 .matched-recipe {
-	font-size: x-large;
 	display: list-item !important;
 }
 
