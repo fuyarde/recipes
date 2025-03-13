@@ -188,7 +188,7 @@ button#clear-search:hover {
 #tag_boeuf:before { content: "🐄"; }
 #tag_pain:before { content: "🍞"; }
 #tag_breakfast:before { content: "🌅"; }
-#tag_broccoli:before { content: "🥦"; }
+#tag_légumes:before { content: "🥦"; }
 #tag_gâteau:before { content: "🍰"; }
 #tag_fromage:before { content: "🧀"; }
 #tag_poulet:before { content: "🐔"; }
