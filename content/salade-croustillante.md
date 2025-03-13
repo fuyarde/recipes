@@ -5,6 +5,11 @@ date: 2025-03-13
 author: "Théo"
 ---
 
+## Infos
+- ⏲️ Préparation: 45 minutes 
+- 🍳 Cuisson: 30 minutes
+- 🍽️ Part: 4
+
 ## Ingrédients
 - **100g** de pommes de terre
 - **1** avocat
