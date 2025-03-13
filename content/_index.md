@@ -58,8 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
 // @license-end
 </script>
 
-## Recettes
-
 {{< artlist >}}
 
 ## Catégories

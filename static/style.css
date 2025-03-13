@@ -1,25 +1,25 @@
 body {
-	background: #f0f0f0;
-	color: #333;
-	max-width: 850px;
+	background: #f5f5dc; /* Beige */
+	color: #4b3f2f; /* Dark Brown */
+	max-width: 600px;
 	margin: auto;
 	padding: 0 16px;
 	margin-bottom: 500px;
-	scrollbar-color: #ccc #f0f0f0;
-	font-family: sans-serif;
+	scrollbar-color: #d2b48c #f5f5dc; /* Tan and Beige */
+	font-family: 'Georgia', serif; /* More rustic font */
 }
 
 ::-webkit-scrollbar {
 	width: .66vw;
-	background-color: #f0f0f0;
+	background-color: #f5f5dc;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: #ccc;
+	background-color: #d2b48c;
 	border-radius: 5px;
 }
 
 a {
-	color: #007acc;
+	color: #8b4513; /* Saddle Brown */
 	text-decoration: none;
 }
 
@@ -38,35 +38,44 @@ a {
 }
 
 a:visited {
-	color: #005f99;
+	color: #6b4226; /* Darker Brown */
 }
 
 a:hover {
-	color: #005f99;
+	color: #6b4226;
 	text-decoration: underline;
 }
 
 h1 {
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
 	text-align: center;
 	padding: 1rem;
+	color: #8b4513; /* Saddle Brown */
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
 }
 
 h2 {
-	color: #e57373;
+	color: #a0522d; /* Sienna */
 	text-align: center;
+}
+
+h3 {
+	color: #a0522d; /* Sienna */
+	text-align: center;
+	margin: 0;
 }
 
 footer {
 	text-align: center;
+	padding: 1em;
+	color: #8b4513; /* Saddle Brown */
 	border-style: solid;
 	border-width: 2px 0px 0px 0px;
-	padding: 1em;
 }
 
 footer p {
 	margin: 0;
+	color: #4b3f2f; /* Dark Brown */
 }
 
 img {
@@ -78,7 +87,7 @@ img {
 
 code {
 	overflow-wrap: break-word;
-	color: #2e7d32;
+	color: #556b2f; /* Dark Olive Green */
 }
 
 .taglist {
