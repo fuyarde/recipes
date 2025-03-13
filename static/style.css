@@ -183,6 +183,7 @@ button#clear-search:hover {
 #tag_alcool:before { content: "🍸"; }
 #tag_avocat:before { content: "🥑"; }
 #tag_pomme:before { content: "🍎"; }
+#tag_boule:before { content: "🥟"; }
 #tag_asiat:before { content: "🥢"; }
 #tag_boeuf:before { content: "🐄"; }
 #tag_pain:before { content: "🍞"; }

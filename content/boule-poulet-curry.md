@@ -1,6 +1,6 @@
 ---
 title: Boule poulet curry
-tags: ['poulet', 'curry', "pain", "pizza"]
+tags: ['poulet','boule', 'curry', "pain", "pizza"]
 date: 2025-03-11
 author: "Théo"
 ---
