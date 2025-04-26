@@ -1,7 +1,6 @@
 ---
 title: Pain viande farcis
 tags:
-  - viande
   - boule
   - pain
 date: 2025-04-26

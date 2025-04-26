@@ -1,7 +1,6 @@
 ---
 title: Bowl Big Mac
 tags:
-  - viande
   - salade
 date: 2025-04-26
 author: Théo
