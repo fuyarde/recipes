@@ -22,7 +22,7 @@ author: Théo
 3. Battre les œufs en neige
 	- 4:30 en vitesse 4 au robot
 4. Incorporez délicatement les blancs en neige au mélange,
-5. Pour 1 verre, alternez spéculoos puis mélange. Ne pas hésitez sur le spéculoos,
+5. Pour 1 verre, alternez spéculoos puis mélange. Ne pas hésiter sur le spéculoos,
 ![Schéma de remplissage du tiramisu](/pix/schema-tiramisu.png)
 6. Recouvrez d'un film plastique et mettez y minimum 2 heures au frigo,
 7. Dégustez ;-)
