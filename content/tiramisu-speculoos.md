@@ -8,6 +8,8 @@ author: Théo
 
 ## Infos
 - ⏲️ Préparation: 30 minutes 
+- 🍳 Cuisson: Pas de cuisson
+- ☃️ Temps au frigo: minimum 2 heures
 - 🍽️ Part: 6 verres
 ## Ingrédients
 - Mascarpone (250 g)
