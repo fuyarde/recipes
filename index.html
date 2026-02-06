@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bbrecettes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.svg" />
+  </head>
+  <body>
+    <div class="homepage">
+      <h1>bbrecettes</h1>
+      <div class="recipe-list">
+        <input
+          type="text"
+          id="search"
+          placeholder="Rechercher une recette..."
+        />
+
+        <ul class="recipe-list">
+          <li><a href="recettes/recette1.html">Recette abc</a></li>
+          <li><a href="recettes/recette2.html">Recette def</a></li>
+          <li><a href="recettes/recette3.html">Recette 3</a></li>
+          <li><a href="recettes/recette4.html">Recette 4</a></li>
+          <li><a href="recettes/recette5.html">Recette 5</a></li>
+        </ul>
+      </div>
+      <div class="footer">Fait avec &hearts;</div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("search");
+        const recipes = document.querySelectorAll(".recipe-list li");
+
+        searchInput.addEventListener("keyup", function () {
+          const searchTerm = this.value.toLowerCase();
+
+          recipes.forEach((recipe) => {
+            const recipeName = recipe
+              .querySelector("a")
+              .textContent.toLowerCase();
+            if (recipeName.includes(searchTerm)) {
+              recipe.style.display = "";
+            } else {
+              recipe.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
