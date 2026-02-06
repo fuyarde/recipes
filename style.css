@@ -47,6 +47,12 @@ h2 {
   margin: 1rem;
 }
 
+ul, ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+
 .homepage > h1,
 .footer {
   padding: 1rem;
@@ -86,7 +92,7 @@ h2 {
 .infos {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .infos p {
@@ -100,5 +106,5 @@ h2 {
   padding: 0.5rem;
   font-size: 1rem;
   display: block;
-  border: 1px solid var(--border)
+  border: 1px solid var(--border);
 }
