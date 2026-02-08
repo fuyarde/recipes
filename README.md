@@ -1,3 +1,3 @@
-# BB Recettes
+# Recipes
 
-A simple [cooking website](https://recettes.bereo.fun). 
+A minimalist [cooking website](https://recettes.agreable.xyz). 
